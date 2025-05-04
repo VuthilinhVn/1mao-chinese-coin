@@ -1,5 +1,5 @@
-![image](https://github.com/user-attachments/assets/6db6e21d-fea9-4846-b03a-9f6612efdf5d)# 1mao-chinese-coin
-This study is a system for detecting and classifying the front and back sides of Chinese 1 Mao coins using YOLOv8 and Python GUI (Tkinter). Includes image/video input, object detection, and result export to annotated images and CSV.
+
+## This study is a system for detecting and classifying the front and back sides of Chinese 1 Mao coins using YOLOv8 and Python GUI (Tkinter). Includes image/video input, object detection, and result export to annotated images and CSV.
 ---
 
 ## 🎯 Key Features
@@ -27,7 +27,7 @@ Back: 1
 
 ```bash
 git clone https://github.com/VuthilinhVn/1mao-chinese-coin 
-cd Euro-Coin-Counting-App
+cd coin_count
 ```
 
 2. Install dependencies:
