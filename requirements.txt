@@ -1,0 +1,40 @@
+colorama-0.4.6
+tqdm-4.67.1
+python-3.9
+numpy-1.26.4
+opencv-python-4.11.0.86
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+pip install ultralytics
+Pillow-11.2.1 
+Shapely-2.0.7 
+contourpy-1.3.0
+cycler-0.12.1 
+fonttools-4.57.0 
+imageio-2.37.0 
+imgaug-0.4.0 
+importlib-resources-6.5.2 
+kiwisolver-1.4.7 
+lazy-loader-0.4 
+matplotlib-3.9.4 
+networkx-3.2.1 
+packaging-25.0 
+pyparsing-3.2.3 
+python-dateutil-2.9.0.post0 
+scikit-image-0.24.0 
+scipy-1.13.1 
+six-1.17.0 
+tifffile-2024.8.30 
+zipp-3.21.0
+
+create .exe 
+(bash) pyinstaller --onefile --noconsole app.py
+
+pip install pyinstaller
+
+
+pyinstaller --onefile --noconsole ^
+--add-data "weights/best.pt;weights" ^
+--add-data "results;results" ^
+coin_detector_app.py
+
+pyinstaller --onefile --noconsole --add-data "weights/best.pt;weights" --add-data "results;results" app2.py
